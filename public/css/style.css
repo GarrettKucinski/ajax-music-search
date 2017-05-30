@@ -17,6 +17,7 @@ body {
 
 a {
     text-decoration: none;
+    color: #1ED760;
 }
 
 ul {
@@ -102,8 +103,7 @@ button {
     font-weight: 700;
 }
 
-.icon-help,
-.icn-album {
+.icon-help, .icn-album {
     font-size: 6em;
     margin-bottom: 12px;
     color: #dfdfdf;
@@ -113,8 +113,7 @@ button {
 
 /* album LIST COMPONENTS -------- */
 
-.no-albums,
-.desc {
+.no-albums, .desc {
     color: #b0b0b0;
     height: 140px;
     margin-top: 50px;
@@ -139,6 +138,10 @@ button {
     font-weight: 500;
 }
 
+.album-artist {
+    color: #000!important;
+}
+
 .album-year {
     color: #9d9d9d;
 }
@@ -147,6 +150,40 @@ button {
     background-color: #fff;
     margin-bottom: .8em;
     position: relative;
+}
+
+.image-wrapper {
+    width: 300px;
+}
+
+.album-details img {
+    border: 10px solid #fff;
+    display: block;
+    float: left;
+    margin-right: 30px;
+}
+
+.album-details .album-title {
+    color: white;
+    font-size: 3rem;
+    margin-top: 70px;
+    padding-bottom: 20px;
+}
+
+.artist-name {
+    display: block;
+    color: white;
+    font-size: 1rem;
+}
+
+.track-list {
+    width: 400px;
+    float: left;
+}
+
+.search-results {
+    display: block;
+    padding: 20px 0;
 }
 
 .-placeholder {
@@ -167,8 +204,7 @@ button {
   Layout Styles
 ==================================== */
 
-.inner,
-.main-content {
+.inner {
     width: 90%;
     max-width: 1025px;
     margin: auto;
@@ -182,6 +218,44 @@ button {
     background: #fff;
     min-height: 80px;
     z-index: 1000;
+}
+
+.detail-header {
+    background: #444;
+}
+
+#login, #loggedin {
+    display: none;
+}
+
+.container {
+    background: #fff;
+    border-radius: 5px;
+    padding: 3px 20px 40px;
+}
+
+.login-button {
+    border-radius: 5px;
+    padding: 10px;
+    background: cornflowerblue;
+    color: white;
+}
+
+.text-overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 500px;
+}
+
+.spotify-link {
+    background: #1ED760;
+    color: white;
+    padding: 5px;
+    width: 60%;
+    margin: 20px auto 0!important;
+    border-radius: 5px;
+    text-align: center;
 }
 
 
