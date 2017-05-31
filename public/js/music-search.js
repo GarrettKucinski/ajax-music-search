@@ -58,7 +58,7 @@ $(document).on('ready', function() {
         albumList += '</ul>';
         $('#albums').html(albumList);
         $('.album-detail').on('click', function(e) {
-            // e.preventDefault();
+            e.preventDefault();
             let albumId = $(this).attr('href');
 
             $.ajax({
