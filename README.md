@@ -14,6 +14,11 @@ You'll need to register an app with the spotify api and generate a client id and
 var client_id = 'YOUR_CLIENT_ID'; // Your client id
 var client_secret = 'YOUR_CLIENT_SECRET'; // Your secret
 ```
+You will also need to add the url 
+```
+http:localhost:8888/callback
+```
+where it says Redirect URIs in the app creation screen, also make sure you save your app at the bottom or it won't work
 
 ## Running the App
 
